@@ -6,6 +6,10 @@ import path from "path";
 import { defineConfig } from "vite";
 import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import path from "path";
+
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
 
 export default defineConfig({
