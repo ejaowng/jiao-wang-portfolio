@@ -12,7 +12,7 @@ export default function Resume() {
       <div className="container">
         {/* Header */}
         <div className="max-w-4xl mx-auto mb-12 text-center">
-          <h1 
+          <h1
             className="text-5xl md:text-6xl font-bold mb-6 text-foreground"
             style={{ fontFamily: 'var(--font-display)' }}
           >
@@ -22,7 +22,7 @@ export default function Resume() {
             Comprehensive overview of experience, skills, and qualifications
           </p>
           <Button size="lg" className="shadow-organic" asChild>
-            <a href={`${import.meta.env.BASE_URL}Jiao-Wang-Resume.docx`} download="Jiao-Wang-Resume.docx">
+            <a href={`${import.meta.env.BASE_URL}Jiao_Wang_Resume.docx`} download="Jiao-Wang-Resume.docx">
               <Download className="mr-2 w-5 h-5" />
               Download Resume (DOCX)
             </a>
@@ -32,7 +32,7 @@ export default function Resume() {
         <div className="max-w-4xl mx-auto">
           {/* Contact Information */}
           <section className="bg-card rounded-3xl p-10 shadow-organic mb-8 texture-overlay">
-            <h2 
+            <h2
               className="text-3xl font-bold mb-6 text-primary"
               style={{ fontFamily: 'var(--font-display)' }}
             >
@@ -63,7 +63,7 @@ export default function Resume() {
 
           {/* Professional Summary */}
           <section className="bg-card rounded-3xl p-10 shadow-organic mb-8 texture-overlay">
-            <h2 
+            <h2
               className="text-2xl font-bold mb-4 flex items-center gap-3"
               style={{ fontFamily: 'var(--font-display)' }}
             >
@@ -77,7 +77,7 @@ export default function Resume() {
 
           {/* Recent Achievements */}
           <section className="bg-card rounded-3xl p-10 shadow-organic mb-8 texture-overlay">
-            <h2 
+            <h2
               className="text-2xl font-bold mb-4 flex items-center gap-3"
               style={{ fontFamily: 'var(--font-display)' }}
             >
@@ -102,7 +102,7 @@ export default function Resume() {
 
           {/* Professional Experience */}
           <section className="bg-card rounded-3xl p-10 shadow-organic mb-8 texture-overlay">
-            <h2 
+            <h2
               className="text-2xl font-bold mb-6 flex items-center gap-3"
               style={{ fontFamily: 'var(--font-display)' }}
             >
@@ -188,7 +188,7 @@ export default function Resume() {
 
           {/* Technical Skills */}
           <section className="bg-card rounded-3xl p-10 shadow-organic mb-8 texture-overlay">
-            <h2 
+            <h2
               className="text-2xl font-bold mb-6 flex items-center gap-3"
               style={{ fontFamily: 'var(--font-display)' }}
             >
@@ -244,7 +244,7 @@ export default function Resume() {
 
           {/* Education */}
           <section className="bg-card rounded-3xl p-10 shadow-organic mb-8 texture-overlay">
-            <h2 
+            <h2
               className="text-2xl font-bold mb-6 flex items-center gap-3"
               style={{ fontFamily: 'var(--font-display)' }}
             >
@@ -274,7 +274,7 @@ export default function Resume() {
 
           {/* Publications */}
           <section className="bg-card rounded-3xl p-10 shadow-organic texture-overlay">
-            <h2 
+            <h2
               className="text-2xl font-bold mb-6 flex items-center gap-3"
               style={{ fontFamily: 'var(--font-display)' }}
             >

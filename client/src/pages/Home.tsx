@@ -13,7 +13,7 @@ export default function Home() {
     <div className="min-h-screen pt-24 pb-24">
       {/* Hero Section - The Pitch */}
       <section className="relative overflow-hidden mb-24">
-        <div 
+        <div
           className="absolute inset-0 opacity-30"
           style={{
             backgroundImage: `url(${import.meta.env.BASE_URL}images/hero-background.png)`,
@@ -22,11 +22,11 @@ export default function Home() {
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-sand/80 via-sand/70 to-sand/60" />
-        
+
         <div className="relative container py-20">
           <div className="max-w-3xl mx-auto text-center">
             {/* One-line Headline */}
-            <h1 
+            <h1
               className="text-5xl md:text-7xl font-bold mb-6 text-foreground leading-tight"
               style={{ fontFamily: 'var(--font-display)' }}
             >
@@ -59,7 +59,7 @@ export default function Home() {
       {/* Three Pillars - Why Hire Me */}
       <section className="container mb-24">
         <div className="max-w-5xl mx-auto">
-          <h2 
+          <h2
             className="text-4xl font-bold text-center mb-16 text-foreground"
             style={{ fontFamily: 'var(--font-display)' }}
           >
@@ -72,7 +72,7 @@ export default function Home() {
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-6 mx-auto">
                 <Brain className="w-8 h-8 text-primary" />
               </div>
-              <h3 
+              <h3
                 className="text-2xl font-bold text-center mb-4 text-foreground"
                 style={{ fontFamily: 'var(--font-display)' }}
               >
@@ -88,7 +88,7 @@ export default function Home() {
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-6 mx-auto">
                 <Network className="w-8 h-8 text-primary" />
               </div>
-              <h3 
+              <h3
                 className="text-2xl font-bold text-center mb-4 text-foreground"
                 style={{ fontFamily: 'var(--font-display)' }}
               >
@@ -104,7 +104,7 @@ export default function Home() {
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-6 mx-auto">
                 <Zap className="w-8 h-8 text-primary" />
               </div>
-              <h3 
+              <h3
                 className="text-2xl font-bold text-center mb-4 text-foreground"
                 style={{ fontFamily: 'var(--font-display)' }}
               >
@@ -121,7 +121,7 @@ export default function Home() {
       {/* Featured Project Preview */}
       <section className="container mb-24">
         <div className="max-w-4xl mx-auto">
-          <div 
+          <div
             className="relative rounded-3xl overflow-hidden shadow-lg"
             style={{
               backgroundImage: `url(${import.meta.env.BASE_URL}images/projects-background.png)`,
@@ -129,14 +129,14 @@ export default function Home() {
               backgroundPosition: 'center',
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-forest/90 via-forest/80 to-forest/70" />
-            
+            <div className="absolute inset-0 bg-gradient-to-r from-[#3d5a4c]/90 via-[#3d5a4c]/80 to-[#3d5a4c]/70" />
+
             <div className="relative p-12 md:p-16 text-white">
               <div className="inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
                 <span className="text-sm font-semibold text-white">Featured Initiative</span>
               </div>
 
-              <h3 
+              <h3
                 className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
                 style={{ fontFamily: 'var(--font-display)' }}
               >
@@ -147,7 +147,7 @@ export default function Home() {
                 Led a funded AI initiative that evolved into an end-to-end engineering framework for requirement generation, planning, execution, validation and recovery. Implemented benchmarking and episodic memory; extending the system toward adaptive intelligence and cloud-based services.
               </p>
 
-              <Button size="lg" className="bg-white text-forest hover:bg-white/90" asChild>
+              <Button size="lg" className="bg-white text-[#3d5a4c] hover:bg-white/90 hover:text-[#3d5a4c]" asChild>
                 <Link href="/projects">
                   Read Full Case Study
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -184,8 +184,8 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="container">
-        <div className="max-w-4xl mx-auto bg-forest rounded-3xl p-12 md:p-16 text-white text-center shadow-lg">
-          <h2 
+        <div className="max-w-4xl mx-auto bg-[#3d5a4c] rounded-3xl p-12 md:p-16 text-white text-center shadow-lg">
+          <h2
             className="text-4xl font-bold mb-6"
             style={{ fontFamily: 'var(--font-display)' }}
           >
@@ -194,7 +194,7 @@ export default function Home() {
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
             Seeking AI Solution Engineer, Agentic AI Engineer or AI Architect roles focused on reliable AI applications, intelligent automation and cloud-native systems.
           </p>
-          <Button size="lg" className="bg-white text-forest hover:bg-white/90" asChild>
+          <Button size="lg" className="bg-white text-[#3d5a4c] hover:bg-white/90 hover:text-[#3d5a4c]" asChild>
             <Link href="/contact">
               Get in Touch
             </Link>
