@@ -147,7 +147,12 @@ export default function Home() {
                 Led a funded AI initiative that evolved into an end-to-end engineering framework for requirement generation, planning, execution, validation and recovery. Implemented benchmarking and episodic memory; extending the system toward adaptive intelligence and cloud-based services.
               </p>
 
-              <Button size="lg" className="bg-white text-[#3d5a4c] hover:bg-white/90 hover:text-[#3d5a4c]" asChild>
+              	<Button
+  		  size="lg"
+  		  className="bg-white hover:bg-white/90"
+  		  style={{ color: "#3d5a4c", backgroundColor: "#ffffff" }}
+  		  asChild
+		>
                 <Link href="/projects">
                   Read Full Case Study
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -194,7 +199,12 @@ export default function Home() {
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
             Seeking AI Solution Engineer, Agentic AI Engineer or AI Architect roles focused on reliable AI applications, intelligent automation and cloud-native systems.
           </p>
-          <Button size="lg" className="bg-white text-[#3d5a4c] hover:bg-white/90 hover:text-[#3d5a4c]" asChild>
+               <Button
+  		  size="lg"
+  		  className="bg-white hover:bg-white/90"
+  		  style={{ color: "#3d5a4c", backgroundColor: "#ffffff" }}
+  		  asChild
+		>
             <Link href="/contact">
               Get in Touch
             </Link>
