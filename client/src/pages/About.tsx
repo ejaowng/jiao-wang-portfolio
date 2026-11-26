@@ -17,10 +17,10 @@ export default function About() {
             className="text-5xl md:text-6xl font-bold mb-6 text-foreground"
             style={{ fontFamily: 'var(--font-display)' }}
           >
-            Why Telecom Systems Expertise Wins in AI
+            Applied AI Engineering with a Systems Reliability Mindset
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            18 years debugging mission-critical systems, isolating root causes under pressure, and optimizing for reliability. These are exactly the skills that separate production AI engineers from researchers.
+            18+ years of engineering complex telecom systems, combined with hands-on development of controlled, self-correcting agentic AI workflows.
           </p>
         </div>
 
@@ -30,7 +30,7 @@ export default function About() {
             className="text-3xl font-bold mb-10 text-foreground"
             style={{ fontFamily: 'var(--font-display)' }}
           >
-            The Transition Logic
+            Engineering Foundations for Reliable AI
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -67,19 +67,19 @@ export default function About() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <span className="text-foreground/80">LLM-based agents for reasoning and analysis</span>
+                  <span className="text-foreground/80">Multi-agent orchestration and finite-state workflow control</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <span className="text-foreground/80">Hybrid AI (domain rules + symbolic logic + ML)</span>
+                  <span className="text-foreground/80">Hybrid AI, deterministic validation and structured reasoning</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <span className="text-foreground/80">Explainability and trustworthiness</span>
+                  <span className="text-foreground/80">Independent semantic evaluation and evidence-based verdicts</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <span className="text-foreground/80">Production-grade AI system design</span>
+                  <span className="text-foreground/80">AI benchmarking, episodic memory and automated recovery</span>
                 </li>
               </ul>
             </div>
@@ -87,7 +87,7 @@ export default function About() {
 
           <div className="bg-sage/10 border-l-4 border-sage rounded-lg p-8">
             <p className="text-lg text-foreground/80 leading-relaxed">
-              <span className="font-semibold">Why this matters:</span> Telecom systems are mission-critical, complex, and unforgiving. You can't debug in production. You can't have downtime. This mindset—systems thinking, root-cause obsession, reliability first—is exactly what's needed to build AI systems that actually work at scale. Not just accurate. Reliable. Explainable. Trustworthy.
+              <span className="font-semibold">Why this matters:</span> Complex engineering systems demand controlled execution, observable evidence and recovery from failures. I apply these principles to AI workflows so that autonomous reasoning remains bounded by verifiable engineering constraints.
             </p>
           </div>
         </section>
@@ -114,7 +114,7 @@ export default function About() {
                 I architect systems across layers—RF, protocol, cloud, hardware. A single failure can cascade. This discipline translates directly: AI systems must account for dependencies, failure modes, and edge cases. No surprises in production.
               </p>
               <p className="text-sm text-primary font-semibold">
-                → AI that scales. Systems that don't break.
+                → Design for dependencies, failure modes and recovery.
               </p>
             </div>
 
@@ -146,7 +146,7 @@ export default function About() {
                 Telecom systems run 24/7 with 99.99%+ uptime requirements. You can't afford black-box AI. Every decision must be explainable, testable, and trustworthy. This is how I build systems.
               </p>
               <p className="text-sm text-primary font-semibold">
-                → AI you can trust. Systems that don't fail.
+                → Evidence-driven decisions and controlled recovery.
               </p>
             </div>
 
@@ -168,6 +168,25 @@ export default function About() {
           </div>
         </section>
 
+        <section className="max-w-4xl mx-auto mb-20">
+          <h2 className="text-3xl font-bold mb-10" style={{ fontFamily: 'var(--font-display)' }}>AI Engineering Expertise</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {[
+              ["Agentic AI Architecture", "Multi-agent workflows, FSM orchestration, structured outputs and controlled iteration."],
+              ["AI Reliability & Evaluation", "Deterministic gates, independent semantic evaluation, evidence completeness and regression benchmarking."],
+              ["Memory & Knowledge", "Episodic memory retrieval implemented; intelligent retrieval, reranking and knowledge consolidation are development directions."],
+              ["Adaptive AI & Self-Learning", "Ongoing work on strategy selection, experience reflection and validated knowledge reuse."],
+              ["Cloud-Native AI", "Kubernetes and OpenShift systems experience; developing containerized AI services, APIs and job management."],
+              ["Applied Systems Engineering", "Python-based automation, cross-layer troubleshooting, performance analysis and engineering research."]
+            ].map(([heading, description]) => (
+              <div key={heading} className="bg-card rounded-3xl p-8 shadow-organic texture-overlay">
+                <h3 className="text-xl font-bold text-primary mb-3">{heading}</h3>
+                <p className="text-foreground/75 leading-relaxed">{description}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* Professional Journey */}
         <section className="max-w-4xl mx-auto mb-20">
           <h2 
@@ -185,10 +204,10 @@ export default function About() {
                   <h3 className="text-2xl font-bold text-foreground">Solution Introduction Engineer</h3>
                   <p className="text-primary font-semibold">Ericsson Inc., NPI Team (2019–Present)</p>
                 </div>
-                <span className="text-muted-foreground font-medium">6 years</span>
+                <span className="text-muted-foreground font-medium">2019–Present</span>
               </div>
               <p className="text-foreground/75 leading-relaxed mb-4">
-                Integrated and tested 4G/5G Cloud RAN systems. Designed AI-assisted testing and troubleshooting workflows using LLM-based agents. Applied domain-driven rules and symbolic reasoning to augment AI decision support for NR feature verification.
+                Integrated and tested 4G/5G Cloud RAN systems and developed a multi-agent AI framework with deterministic workflow control, independent evaluation, automated RCA, benchmarking and episodic memory retrieval.
               </p>
               <p className="text-sm text-primary font-semibold">
                 ✓ Led funded AI initiative (MANA AI Ideation Hackathon)

@@ -22,7 +22,7 @@ export default function Resume() {
             Comprehensive overview of experience, skills, and qualifications
           </p>
           <Button size="lg" className="shadow-organic" asChild>
-            <a href="/Jiao-Wang-Resume.docx" download="Jiao-Wang-Resume.docx">
+            <a href={`${import.meta.env.BASE_URL}Jiao-Wang-Resume.docx`} download="Jiao-Wang-Resume.docx">
               <Download className="mr-2 w-5 h-5" />
               Download Resume (DOCX)
             </a>
@@ -41,7 +41,7 @@ export default function Resume() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-foreground/80">
               <div>
                 <p className="mb-2">
-                  <span className="font-semibold">Location:</span> 6201 Windhaven Parkway, Apt. 3025, Plano, TX 75093
+                  <span className="font-semibold">Location:</span> Plano, TX, USA
                 </p>
               </div>
               <div>
@@ -71,7 +71,7 @@ export default function Resume() {
               Professional Summary
             </h2>
             <p className="text-foreground/80 leading-relaxed">
-              Senior Solution Introduction and Integration Engineer with 18+ years of experience in wireless and cloud-native telecom systems, specializing in 5G and Cloud RAN. Hands-on experience applying Generative AI and LLM-based agents to testing, troubleshooting, log/trace analysis, and workflow automation using hybrid approaches combining domain rules, symbolic reasoning, and machine learning. Strong at translating complex network behavior into scalable, AI-assisted solutions and collaborating across RF, RAN, cloud, and software teams. Focused on applied AI solution engineering roles leveraging deep telecom and cloud systems expertise.
+              AI solution engineering professional with 18+ years of wireless and cloud-native telecom systems experience. Designs controlled, self-correcting engineering systems combining multi-agent LLM orchestration, deterministic validation, independent semantic evaluation, evidence-based analysis and automated RCA. Implemented AI benchmarking and episodic memory retrieval; extending these capabilities toward intelligent knowledge retrieval, adaptive AI, self-learning and cloud-native AI services.
             </p>
           </section>
 
@@ -126,11 +126,11 @@ export default function Resume() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1">•</span>
-                  <span>Designed and prototyped AI-assisted testing and troubleshooting workflows, applying LLM-based agents to automate log/trace analysis, fault isolation, and test-case reasoning.</span>
+                  <span>Architected and developed a controlled multi-agent AI framework for end-to-end testing and troubleshooting, with finite-state orchestration, structured artifacts, deterministic gates, independent semantic evaluation and automated recovery.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1">•</span>
-                  <span>Applied domain-driven rules and symbolic reasoning to augment AI-based decision support for NR feature verification, improving debugging efficiency.</span>
+                  <span>Implemented historical run benchmarking, regression evaluation and episodic memory retrieval; developing adaptive planning, validated knowledge consolidation and cloud-based AI service capabilities.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1">•</span>
@@ -201,7 +201,11 @@ export default function Resume() {
                 <h3 className="text-lg font-semibold mb-3 text-primary">AI & Automation</h3>
                 <ul className="space-y-1 text-foreground/80">
                   <li>• Generative AI, LLM-based Agents</li>
-                  <li>• Agentic AI Concepts</li>
+                  <li>• Multi-Agent Architecture, FSM Orchestration</li>
+                  <li>• Deterministic Validation, Semantic Evaluation</li>
+                  <li>• AI Benchmarking, Evidence-Based RCA</li>
+                  <li>• Episodic Memory, Knowledge Retrieval</li>
+                  <li>• Adaptive AI &amp; Self-Learning (ongoing)</li>
                   <li>• AI-assisted Testing & Troubleshooting</li>
                   <li>• Rule-based Reasoning, Symbolic AI</li>
                 </ul>
@@ -223,6 +227,7 @@ export default function Resume() {
                   <li>• Kubernetes, RedHat OpenShift</li>
                   <li>• Cloud-Native Architecture</li>
                   <li>• Virtualized RAN</li>
+                  <li>• Docker, API-Based AI Services (development)</li>
                 </ul>
               </div>
 
@@ -230,6 +235,7 @@ export default function Resume() {
                 <h3 className="text-lg font-semibold mb-3 text-primary">Operating Systems & Tools</h3>
                 <ul className="space-y-1 text-foreground/80">
                   <li>• Linux (RedHat, Wind River)</li>
+                  <li>• Python, Structured JSON Workflows</li>
                   <li>• Integration & NPI Testing Frameworks</li>
                 </ul>
               </div>

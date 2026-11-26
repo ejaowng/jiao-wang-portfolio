@@ -16,7 +16,7 @@ export default function Home() {
         <div 
           className="absolute inset-0 opacity-30"
           style={{
-            backgroundImage: 'url(/images/hero-background.png)',
+            backgroundImage: `url(${import.meta.env.BASE_URL}images/hero-background.png)`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -30,12 +30,12 @@ export default function Home() {
               className="text-5xl md:text-7xl font-bold mb-6 text-foreground leading-tight"
               style={{ fontFamily: 'var(--font-display)' }}
             >
-              AI Solution Engineer for 5G, Cloud RAN & Network Automation
+              AI Solution Engineer | Agentic AI & Reliable Systems
             </h1>
 
             {/* Value Proposition Paragraph */}
             <p className="text-xl md:text-2xl text-foreground/80 mb-8 leading-relaxed max-w-2xl mx-auto">
-              18+ years architecting and deploying mission-critical telecom systems. I own end-to-end <span className="font-semibold text-primary">AI-driven solutions</span>—from design through production—using LLM-based agents for intelligent automation, fault isolation, and system optimization. Proven track record scaling AI initiatives in complex network environments.
+              I design <span className="font-semibold text-primary">controlled, self-correcting AI engineering systems</span> that combine multi-agent reasoning, deterministic safeguards, independent evaluation and evidence-driven recovery. I bring 18+ years of telecom and cloud systems experience to applied AI.
             </p>
 
             {/* CTA Buttons */}
@@ -76,10 +76,10 @@ export default function Home() {
                 className="text-2xl font-bold text-center mb-4 text-foreground"
                 style={{ fontFamily: 'var(--font-display)' }}
               >
-                Applied AI Systems
+                Agentic AI & Reliability
               </h3>
               <p className="text-center text-foreground/75 leading-relaxed">
-                LLM-based agents, agentic reasoning, hybrid AI (domain rules + symbolic logic + ML). I ship production systems that solve real problems—not research projects.
+                Multi-agent orchestration, deterministic validation, independent semantic evaluation and automated root-cause analysis for complex engineering workflows.
               </p>
             </div>
 
@@ -92,10 +92,10 @@ export default function Home() {
                 className="text-2xl font-bold text-center mb-4 text-foreground"
                 style={{ fontFamily: 'var(--font-display)' }}
               >
-                Systems Architecture
+                AI Evaluation & Knowledge
               </h3>
               <p className="text-center text-foreground/75 leading-relaxed">
-                5G NR, Cloud RAN, virtualized infrastructure, Kubernetes. I architect systems that scale—across RF, protocol, cloud, and hardware layers.
+                Benchmarking, evidence-based verdicts and episodic memory retrieval. Extending these foundations toward intelligent knowledge retrieval, adaptive planning and self-learning.
               </p>
             </div>
 
@@ -108,10 +108,10 @@ export default function Home() {
                 className="text-2xl font-bold text-center mb-4 text-foreground"
                 style={{ fontFamily: 'var(--font-display)' }}
               >
-                Full Ownership
+                Cloud & Systems Engineering
               </h3>
               <p className="text-center text-foreground/75 leading-relaxed">
-                I own initiatives end-to-end: concept through production. Led funded AI programs. Published peer-reviewed research. Delivered results at scale.
+                Cloud RAN, Kubernetes and OpenShift expertise, funded AI initiative leadership and peer-reviewed research. Developing cloud-native AI service capabilities.
               </p>
             </div>
           </div>
@@ -124,7 +124,7 @@ export default function Home() {
           <div 
             className="relative rounded-3xl overflow-hidden shadow-lg"
             style={{
-              backgroundImage: 'url(/images/projects-background.png)',
+              backgroundImage: `url(${import.meta.env.BASE_URL}images/projects-background.png)`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -140,11 +140,11 @@ export default function Home() {
                 className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
                 style={{ fontFamily: 'var(--font-display)' }}
               >
-                Agentic AI for NPI Testing & Troubleshooting
+                Agentic AI — Controlled, Self-Correcting Engineering System
               </h3>
 
               <p className="text-lg text-white/90 mb-8 leading-relaxed max-w-2xl">
-                Conceived, secured funding, and shipped an AI initiative selected by the MANA AI Ideation Hackathon. Built and deployed LLM-based agents that automate testing, log analysis, and fault isolation across Cloud RAN systems—reducing debugging time and improving accuracy at scale.
+                Led a funded AI initiative that evolved into an end-to-end engineering framework for requirement generation, planning, execution, validation and recovery. Implemented benchmarking and episodic memory; extending the system toward adaptive intelligence and cloud-based services.
               </p>
 
               <Button size="lg" className="bg-white text-forest hover:bg-white/90" asChild>
@@ -175,8 +175,8 @@ export default function Home() {
               <p className="text-foreground/70">Electrical Engineering</p>
             </div>
             <div className="bg-card rounded-2xl p-8 shadow-organic texture-overlay">
-              <div className="text-4xl font-bold text-primary mb-2">∞</div>
-              <p className="text-foreground/70">Systems Thinking</p>
+              <div className="text-4xl font-bold text-primary mb-2">AI</div>
+              <p className="text-foreground/70">Reliability Engineering</p>
             </div>
           </div>
         </div>
@@ -189,10 +189,10 @@ export default function Home() {
             className="text-4xl font-bold mb-6"
             style={{ fontFamily: 'var(--font-display)' }}
           >
-            Ready to Scale AI in Your Network
+            Building Reliable AI for Complex Systems
           </h2>
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
-            Seeking AI Solution Engineer or AI Architect roles where I can architect and deploy intelligent systems at scale. Telecom, network infrastructure, or mission-critical systems.
+            Seeking AI Solution Engineer, Agentic AI Engineer or AI Architect roles focused on reliable AI applications, intelligent automation and cloud-native systems.
           </p>
           <Button size="lg" className="bg-white text-forest hover:bg-white/90" asChild>
             <Link href="/contact">

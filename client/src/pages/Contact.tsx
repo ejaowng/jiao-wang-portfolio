@@ -6,7 +6,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Linkedin, Github } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 
@@ -20,9 +20,9 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real implementation, this would send the form data to a backend
-    toast.success("Thank you for your message! I'll get back to you soon.");
-    setFormData({ name: "", email: "", subject: "", message: "" });
+    const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`;
+    window.location.href = `mailto:jiaowang2010@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(body)}`;
+    toast.info("Complete and send your message in your email application.");
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -104,8 +104,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold mb-1">Location</h3>
                     <p className="text-foreground/70">
-                      6201 Windhaven Parkway, Apt. 3025<br />
-                      Plano, TX 75093
+                      Plano, TX, USA
                     </p>
                   </div>
                 </div>
@@ -131,7 +130,7 @@ export default function Contact() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>AI Architect (Telecom / Network Intelligence)</span>
+                  <span>AI Architect / Agentic AI Engineer</span>
                 </li>
               </ul>
             </div>
@@ -211,7 +210,7 @@ export default function Contact() {
               </div>
 
               <Button type="submit" size="lg" className="w-full shadow-organic">
-                Send Message
+                Open Email Draft
               </Button>
             </form>
 

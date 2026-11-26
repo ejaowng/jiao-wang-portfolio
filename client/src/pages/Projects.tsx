@@ -12,7 +12,7 @@ export default function Projects() {
       <section 
         className="relative py-20 mb-16 texture-overlay"
         style={{
-          backgroundImage: 'url(/images/projects-background.png)',
+          backgroundImage: `url(${import.meta.env.BASE_URL}images/projects-background.png)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -28,7 +28,7 @@ export default function Projects() {
               Projects
             </h1>
             <p className="text-xl text-foreground/80 leading-relaxed">
-              Shipped AI initiatives that deliver measurable results. Each case study shows the problem I owned, the system I built, and the impact I delivered.
+              Applied AI engineering projects combining autonomous reasoning, controlled execution, measurable evaluation and complex systems expertise.
             </p>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function Projects() {
             <div 
               className="h-80 bg-cover bg-center relative"
               style={{
-                backgroundImage: 'url(/images/agentic-ai-concept.png)',
+                backgroundImage: `url(${import.meta.env.BASE_URL}images/agentic-ai-concept.png)`,
               }}
             >
               <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent"></div>
@@ -59,7 +59,7 @@ export default function Projects() {
                 className="text-4xl font-bold mb-4 text-foreground"
                 style={{ fontFamily: 'var(--font-display)' }}
               >
-                Agentic AI for NPI Testing and Troubleshooting
+                Agentic AI — Controlled, Self-Correcting Engineering System
               </h2>
               
               {/* Project Meta */}
@@ -84,13 +84,13 @@ export default function Projects() {
                   The Problem
                 </h3>
                 <p className="text-foreground/80 leading-relaxed mb-6">
-                  NPI testing and troubleshooting in Cloud RAN is slow and manual. Engineers spend weeks debugging complex failures. Root-cause analysis requires expertise across RF, protocol, cloud, and hardware layers. We needed to automate this.
+                  Complex engineering tests require reliable interpretation of requirements, safe execution, runtime evidence and cross-layer troubleshooting. Unconstrained LLM workflows can omit requirements or produce unsupported conclusions.
                 </p>
                 <h3 className="text-2xl font-semibold mb-4" style={{ fontFamily: 'var(--font-display)' }}>
                   What I Built
                 </h3>
                 <p className="text-foreground/80 leading-relaxed mb-6">
-                  I conceived, secured funding (MANA AI Ideation Hackathon), and shipped an agentic AI system that automates testing and troubleshooting. LLM-based agents reason about test strategies and failures. Domain rules and symbolic logic ensure explainability. The system analyzes logs, traces, and metrics to isolate faults across all layers.
+                  I conceived and secured funding for an agentic AI initiative through the MANA AI Ideation Hackathon. I developed a controlled multi-agent framework spanning requirement authoring, planning, execution, verification, semantic evaluation, analysis, root-cause analysis and reporting. A workflow orchestrator governs transitions and recovery.
                 </p>
               </div>
 
@@ -103,9 +103,9 @@ export default function Projects() {
                   <div className="flex items-start gap-3 bg-background rounded-2xl p-6">
                     <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h4 className="font-semibold mb-2">Autonomous Test Reasoning</h4>
+                      <h4 className="font-semibold mb-2">Controlled Multi-Agent Orchestration</h4>
                       <p className="text-sm text-muted-foreground">
-                        Agents that understand test requirements and generate strategies without human input. 40% reduction in manual test design time.
+                        Specialized agents translate engineering intent into structured requirements and plans, with deterministic workflow transitions and bounded recovery.
                       </p>
                     </div>
                   </div>
@@ -115,7 +115,7 @@ export default function Projects() {
                     <div>
                       <h4 className="font-semibold mb-2">Automated Root-Cause Analysis</h4>
                       <p className="text-sm text-muted-foreground">
-                        AI-powered log and trace analysis that finds root causes in minutes instead of days. 60% improvement in debugging accuracy.
+                        Evidence-driven analysis identifies failures and routes the workflow toward targeted correction and re-execution.
                       </p>
                     </div>
                   </div>
@@ -123,9 +123,9 @@ export default function Projects() {
                   <div className="flex items-start gap-3 bg-background rounded-2xl p-6">
                     <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h4 className="font-semibold mb-2">Multi-Layer Fault Isolation</h4>
+                      <h4 className="font-semibold mb-2">Independent Evaluation</h4>
                       <p className="text-sm text-muted-foreground">
-                        Agents that isolate failures across RF, protocol, cloud, and hardware. 50% reduction in MTTR (mean time to resolution).
+                        Independent semantic evaluation and deterministic checks assess consistency, evidence completeness and verdict reliability.
                       </p>
                     </div>
                   </div>
@@ -133,9 +133,9 @@ export default function Projects() {
                   <div className="flex items-start gap-3 bg-background rounded-2xl p-6">
                     <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <h4 className="font-semibold mb-2">Explainable AI (Hybrid)</h4>
+                      <h4 className="font-semibold mb-2">Benchmarking & Episodic Memory</h4>
                       <p className="text-sm text-muted-foreground">
-                        Domain rules + symbolic logic + ML. Every decision is traceable. This is how you deploy AI in mission-critical systems.
+                        Historical run comparison, regression metrics and experience retrieval support measurable improvement and reusable engineering knowledge.
                       </p>
                     </div>
                   </div>
@@ -148,20 +148,20 @@ export default function Projects() {
                   Technical Approach
                 </h3>
                 <p className="text-foreground/80 leading-relaxed mb-4">
-                  The project employs a sophisticated hybrid architecture that combines the flexibility of LLMs with the reliability of domain-specific knowledge:
+                  The framework combines flexible LLM reasoning with feature-independent engineering controls:
                 </p>
                 <ul className="space-y-3 text-foreground/80">
                   <li className="flex items-start gap-3">
                     <span className="text-primary font-bold mt-1">•</span>
-                    <span><strong>Domain Rules Integration:</strong> Embedded telecom-specific rules and protocols to guide AI decision-making and ensure compliance with industry standards.</span>
+                    <span><strong>Domain Rules Integration:</strong> Domain knowledge guides feature-specific reasoning while reusable validation rules enforce general engineering constraints.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-primary font-bold mt-1">•</span>
-                    <span><strong>Symbolic Reasoning:</strong> Implemented logical reasoning frameworks to provide explainability and traceability for all AI-driven decisions.</span>
+                    <span><strong>Symbolic Reasoning:</strong> Structured artifacts and deterministic validators support traceable decisions and evidence-based outcomes.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-primary font-bold mt-1">•</span>
-                    <span><strong>Machine Learning Enhancement:</strong> Leveraged ML models to continuously improve pattern recognition and prediction accuracy based on historical data.</span>
+                    <span><strong>Memory and Evaluation:</strong> Episodic retrieval and benchmark comparisons provide foundations for experience-driven improvement.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-primary font-bold mt-1">•</span>
@@ -170,16 +170,32 @@ export default function Projects() {
                 </ul>
               </div>
 
+              <div className="mb-8">
+                <h3 className="text-2xl font-semibold mb-4" style={{ fontFamily: 'var(--font-display)' }}>Ongoing Development</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {[
+                    ["Intelligent Knowledge Retrieval", "Hybrid retrieval, reranking and evaluation of memory usefulness."],
+                    ["Adaptive AI", "Context-aware planning strategy selection informed by benchmark outcomes."],
+                    ["Self-Learning", "Experience reflection, validated lesson consolidation and controlled knowledge promotion."],
+                    ["Cloud-Based AI", "Containerized service architecture, APIs, asynchronous jobs and observability."]
+                  ].map(([heading, description]) => (
+                    <div key={heading} className="bg-background rounded-2xl p-6">
+                      <h4 className="font-semibold mb-2">{heading}</h4>
+                      <p className="text-sm text-muted-foreground">{description}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
               {/* Impact */}
               <div className="bg-primary/5 rounded-2xl p-8 border-l-4 border-primary">
                 <h3 className="text-2xl font-semibold mb-4" style={{ fontFamily: 'var(--font-display)' }}>
                   Delivered Results
                 </h3>
                 <p className="text-foreground/80 leading-relaxed mb-4">
-                  40% reduction in manual test design time. 60% improvement in debugging accuracy. 50% reduction in MTTR. Reduced NPI testing cycles from weeks to days. This system is now the standard for Cloud RAN testing at Ericsson.
+                  Demonstrated end-to-end execution and recovery in engineering test scenarios. Implemented validation gates, independent evaluation, evidence-based verdicts and historical benchmark comparisons to measure workflow quality.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  Proof-of-concept for broader AI adoption across telecom engineering. Demonstrated that hybrid AI (domain rules + LLMs) works better than pure ML for mission-critical systems. This is the template for scaling AI in reliability-critical environments.
+                  The framework provides a foundation for applying controlled agentic AI to reliability-critical engineering tasks. Quantitative results are omitted here pending verification and approval for public disclosure.
                 </p>
               </div>
             </div>
@@ -224,7 +240,7 @@ export default function Projects() {
                   AI-Assisted Testing Workflows
                 </h4>
                 <p className="text-foreground/80 leading-relaxed">
-                  Designed and shipped AI-assisted testing workflows using LLM-based agents for automated log/trace analysis, fault isolation, and test reasoning. Hybrid AI approach: domain rules + symbolic logic + ML. Reduced debugging time by 60%, improved accuracy by 40%. This is now the standard for NR feature verification.
+                  Designed and developed AI-assisted testing workflows using LLM agents, deterministic validation, evidence-driven analysis and automated recovery. Established benchmarking and episodic memory capabilities to support continuous engineering improvement.
                 </p>
               </div>
 
